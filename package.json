@@ -11,7 +11,7 @@
     "test": "xo"
   },
   "files": [
-    "dist/"
+    "src/"
   ],
   "repository": {
     "type": "git",
