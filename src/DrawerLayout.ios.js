@@ -144,7 +144,7 @@ export default class DrawerLayout extends React.Component {
     const animatedOverlayStyles = { opacity: overlayOpacity };
 
     return (
-      <View style={{ flex: 1, backgroundColor: 'transparent' }} {...this._panResponder.panHandlers}>
+      <View testID='rootDrawer' style={{ flex: 1, backgroundColor: 'transparent' }} {...this._panResponder.panHandlers}>
         <Animated.View style={styles.main}>
           {this.props.children}
         </Animated.View>
